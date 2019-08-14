@@ -42,7 +42,7 @@ various configuration entries interact in more complex ways. For example:
 
 * If a [`service-splitter`](/docs/agent/config-entries/service-splitter.html)
   is created with a [service
-  split](/docs/agent/config-entries/service-splitter.html#splits) that has its
+  split](/docs/agent/config-entries/service-splitter.html#splits), and the target service has its
   own `service-splitter` then the overall effect is flattened and only a single 
   aggregate traffic split is ultimately configured in the proxy.
 
