@@ -67,7 +67,7 @@ various configuration entries interact in more complex ways. For example:
 
 To correctly interpret a collection of configuration entries as a valid
 discovery chain we first compile them into a form more directly usable by the
-layers responsible for configuration connect sidecar proxies.
+layers responsible for configuring Connect sidecar proxies.
 
 You can interact with the compiler directly using the [discovery-chain
 API](/api/discovery-chain.html).
